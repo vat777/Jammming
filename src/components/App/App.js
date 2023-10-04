@@ -2,7 +2,11 @@ import logo from '../../assets/logo.svg'
 import './App.css';
 import '../../assets/general.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+
 function App() {
+
   return (
     <>
       <header>
@@ -33,21 +37,33 @@ function App() {
                 <td>Rezz</td>
                 <td>Menace</td>
                 <td>Nightmare on </td>
-                <td>+</td>
+                <td >
+                  <span className='plus-button'>
+                    <FontAwesomeIcon icon={faPlusCircle} />  
+                  </span>
+                </td>
               </tr>
 
               <tr>
                 <td>Rezz</td>
                 <td>Menace</td>
                 <td>Nightmare on </td>
-                <td>+</td>
+                <td >
+                  <span className='plus-button'>
+                    <FontAwesomeIcon icon={faPlusCircle} />  
+                  </span>
+                </td>
               </tr>
 
               <tr>
                 <td>Rezz</td>
                 <td>Menace</td>
                 <td>Nightmare on </td>
-                <td>+</td>
+                <td >
+                  <span className='plus-button'>
+                    <FontAwesomeIcon icon={faPlusCircle} />  
+                  </span>
+                </td>
               </tr>
               
             </tbody>

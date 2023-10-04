@@ -95,6 +95,25 @@ thead {
     
 }
 
+.plus-button {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.plus-button:hover {
+    color: purple;
+}
+
+table > tbody > tr:hover > td > span.plus-button {
+    visibility: visible;
+  }
+  
+table > tbody > tr > td >  span.plus-button {
+    visibility: hidden;
+  }
+
 .result-playlist-container {
     display: flex;
     justify-content: center;
